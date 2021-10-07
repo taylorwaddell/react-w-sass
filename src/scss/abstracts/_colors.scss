@@ -1,0 +1,46 @@
+// VARIABLES -----------V
+$primary: #74526c;
+$secondary: #c4abbe;
+$dark: #04151f;
+$light: #f5fbef;
+$danger: #ca3825;
+$success: #92ad94;
+$warning: #f9a620;
+
+// BACKGROUND COLORS ---------------V
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+.bg-danger {
+  background-color: $danger;
+}
+
+.bg-success {
+  background-color: $success;
+}
+
+.bg-warning {
+  background-color: $warning;
+}
+
+// TEXT COLORS ----------V
+.text-light {
+  color: $light;
+}
+
+.text-dark {
+  color: $dark;
+}

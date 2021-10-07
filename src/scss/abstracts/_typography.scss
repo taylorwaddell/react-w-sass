@@ -1,0 +1,19 @@
+//DEPENDECIES -----------V
+/* Google fonts (below):
+    Sora (200, 400, 600, 800)
+    Hahmlet (200, 400, 600, 800)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;400;600;800&family=Sora:wght@200;400;600;800&display=swap");
+
+// VARIABLES -----------V
+$font-primary: "Sora", arial, serif;
+$font-secondary: "Hahmlet", "times new roman", georgia;
+
+//CLASSES --------------V
+.font-family-primary {
+  font-family: $font-primary;
+}
+
+.font-family-secondary {
+  font-family: $font-secondary;
+}

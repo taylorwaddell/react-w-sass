@@ -1,0 +1,16 @@
+@use "../abstracts/colors" as *;
+@use "../abstracts/typography" as *;
+@use "../abstracts/styles" as *;
+
+button {
+  border-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-family: $font-primary;
+  border-radius: $br-round;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.25;
+}
